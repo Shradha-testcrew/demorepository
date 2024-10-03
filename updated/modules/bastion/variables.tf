@@ -28,16 +28,6 @@ variable "windows_image_id" {
   type        = string
 }
 
-variable "owner" {
-  description = "Owner tag"
-  type        = string
-}
-
-variable "testcase" {
-  description = "Test case tag"
-  type        = string
-}
-
 variable "instance_name" {
     description = "Instance name for Bastion host"
     type        = string

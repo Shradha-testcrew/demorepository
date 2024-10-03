@@ -6,7 +6,5 @@ resource "alicloud_instance" "bastion_host" {
   vswitch_id         = var.public_subnet_id
   image_id           = var.windows_image_id
   allocate_public_ip = true
-  owner = local.owner
-  testcase = local.testcase
 }
 

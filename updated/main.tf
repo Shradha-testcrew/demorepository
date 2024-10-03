@@ -23,6 +23,4 @@ module "bastion_host" {
   private_instances_sg_id = module.bastion_security_groups.private_instances_sg_id
   bastion_instance_type = var.bastion_instance_type
   windows_image_id     = var.windows_image_id
-  owner = local.owner
-  testcase = local.testcase
 }
