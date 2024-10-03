@@ -1,0 +1,7 @@
+region               = "me-central-1"
+vpc_id               = "vpc-l4v3ckgpg6wn2u44aztdk"
+public_subnet_id     = "vsw-l4vdqe95m411kjunuomyf"
+vpn_ip_range         = "188.49.114.149/32"
+bastion_instance_type = "ecs.g6.large"
+windows_image_id     = "win2022_21H2_x64_dtc_en-us_40G_alibase_20231214.vhd"
+instance_name        = "bastion-host" 
