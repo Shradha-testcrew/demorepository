@@ -40,5 +40,5 @@ variable "testcase" {
 
 variable "instance_name" {
     description = "Instance name for Bastion host"
-    type        = "string"
+    type        = string
 }

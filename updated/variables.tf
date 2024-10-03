@@ -1,12 +1,12 @@
 variable "region" {
   description = "Region where the resources will be created."
   type        = string
-  default     = "cn-hangzhou"
+  default     = "me-central-1"
 }
 
 variable "instance_name" {
     description = "Instance name for Bastion host"
-    type        = "string"
+    type        = string
 }
 
 variable "vpc_id" {
@@ -34,9 +34,4 @@ variable "windows_image_id" {
   description = "The image ID for the Windows server."
   type        = string
   default     = "win2016_64_ent_sp2_en"
-}
-
-variable "tags" {
-  description = "Tags to apply to resources"
-  type        = map(string)
 }
